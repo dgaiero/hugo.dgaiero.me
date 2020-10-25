@@ -1,0 +1,17 @@
+.impl_dsgn0,
+.impl_dsgn1,
+.impl_dsgn2,
+.impl_dsgn3,
+.impl_dsgn4,
+.impl_dsgn5,
+.impl_dsgn6,
+.impl_dsgn7 { background-image: url('impl_dsgn_icons.png'); width: 16px; height: 16px; }
+
+.impl_dsgn0 { background-position: -0px; }
+.impl_dsgn1 { background-position: -16px; }
+.impl_dsgn2 { background-position: -32px; }
+.impl_dsgn3 { background-position: -48px; }
+.impl_dsgn4 { background-position: -64px; }
+.impl_dsgn5 { background-position: -80px; }
+.impl_dsgn6 { background-position: -96px; }
+.impl_dsgn7 { background-position: -112px; }

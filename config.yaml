@@ -1,0 +1,57 @@
+baseURL: 'https://dgaiero.me'
+title: Dominic Gaiero
+paginate: 5
+theme: hugo-PaperMod
+
+enableRobotsTXT: true
+buildDrafts: true
+buildFuture: false
+buildExpored: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Dominic Gaiero
+  description: 'Just a collection of things that I find useful or interesting'
+  author: Me
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  comments: false
+  defaultTheme: auto
+  disableThemeToggle : false
+  disableSpecial1stPost : false
+
+  assets:
+    favicon: '/favicon.ico'
+
+  label:
+    text: "Dominic Gaiero"
+    icon: /favicon.ico
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Dominic Gaiero
+    # imageUrl: '<img location>'
+    # imageTitle: my image
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Hi there \U0001F44B"
+    Content: This site serves as a collection of things that I find useful or interesting. Furthermore, this is just a temporary website while I work on a more custom solution. You can see that one at https://dev.dgaiero.me
+
+  socialIcons:
+    - name: linkedin
+      url: 'https://www.linkedin.com/in/dgaiero/'
+    - name: github
+      url: 'https://github.com/dgaiero'

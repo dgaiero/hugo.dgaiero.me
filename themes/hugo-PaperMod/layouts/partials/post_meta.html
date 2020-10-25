@@ -1,0 +1,11 @@
+{{- if not .Date.IsZero -}}
+<time>{{- .Date.Format (default "January 2, 2006" .Site.Params.DateFormat) }}</time>&nbsp;·&nbsp;
+{{- end -}}
+
+{{- if $.Site.Params.ShowReadingTime -}}
+{{- i18n "read_time" .ReadingTime | default (printf "%s min" .ReadingTime) }}&nbsp;·&nbsp;
+{{- end -}}
+
+{{- if or .Params.author .Site.Params.author }}
+{{- printf "%s" (.Params.author | default .Site.Params.author) }}
+{{- end -}}

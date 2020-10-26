@@ -30,6 +30,6 @@ In this paper the effectiveness of detecting and correcting radiation-induced er
 
 [Click here to interact with the Simulink Model](/fault-id-simulink/webview.html)
 
-I have more [^1] to say.
+<!-- I have more [^1] to say.
 
-[^1]: Footnote example.
+[^1]: Footnote example. -->
